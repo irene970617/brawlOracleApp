@@ -1,0 +1,8 @@
+.aboutcards{
+    width: '10vh'
+  }
+  @media screen and (min-width: 1200px) {
+    .aboutcards{
+      width: '60vh'
+    }
+  }

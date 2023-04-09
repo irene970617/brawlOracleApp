@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+  font-family: 'Lilita One', cursive;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.about-card{
+  width: '10vh'
+}
+@media screen and (min-width: 1200px) {
+  .about-card{
+    width: '60vh'
+  }
+}
+
+.figure {
+  position: relative;
+}
+
+.figcaption {
+  position: absolute;
+  inset: 2px;  
+  display: none;
+}
+
+.figure:hover .figcaption {
+  display: flex;
+}
+
+
+/* for visualization only */
+.figure {
+  display: inline-block;
+}
+
+.figcaption {
+  
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.538);
+}
